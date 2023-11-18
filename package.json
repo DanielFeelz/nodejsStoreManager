@@ -1,0 +1,25 @@
+{
+  "name": "nodejs---store-manager",
+  "version": "1.0.0",
+  "description": "A sistem to manage stores",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev --inspect --transpile-only --ignore-watch node_modules src/server.ts",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "Daniel Feelz",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "prisma": "^5.6.0"
+  },
+  "devDependencies": {
+    "@prisma/client": "^5.6.0",
+    "@rocketseat/eslint-config": "^2.1.0",
+    "@types/express": "^4.17.21",
+    "eslint": "^8.54.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.2.2"
+  }
+}
